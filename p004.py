@@ -1,5 +1,6 @@
 # Problem 004 - Largest palindrome product
 
+# TODO: Make this function work with any n?
 def is_palindrome(n: int) -> bool:
     if ( (n // 100000) == (n % 10)  and 
          (n % 100000) // 10000 == (n % 100) // 10 and 
