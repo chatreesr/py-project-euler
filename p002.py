@@ -1,4 +1,5 @@
 # Problem 002 - Even Fibonacci Numbers
+
 def fib(n: int) -> int:
     """Iterative implementation of fibonacci numbers"""
     if (n < 2):

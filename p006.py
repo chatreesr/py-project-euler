@@ -1,0 +1,1 @@
+# Problem 006 - Sum Square Difference
