@@ -1,6 +1,7 @@
 # Problem 007 -- The 10,001st prime number
 import math
 
+
 # attempt 0 - the brute force trial division :)
 def is_prime(n: int) -> bool:
     if n == 1:
@@ -18,8 +19,9 @@ def is_prime(n: int) -> bool:
         if n % i == 0:
             return False
         i += 1
-    
+
     return True
+
 
 if __name__ == '__main__':
     position = 10001
@@ -29,11 +31,10 @@ if __name__ == '__main__':
         if is_prime(roll):
             print(f'#{count} = {roll}')
             count += 1
-        
+
         if count == position:
             break;
 
         roll += 1
 
     print(f'{roll}')
-        
